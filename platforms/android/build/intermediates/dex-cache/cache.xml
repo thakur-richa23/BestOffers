@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_8c1eb9f154a2b3a418f41abcce4524df834396b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25f55515117e14a658120a7b01a9ea5170409db4">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-10.2.1_4d426608309739b5bb1abeaf59745019d13937ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_2f9bc33eb0c396c6320b092122d249b798ebc7bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_58620caec9cc0114a38b1b222c526329c0774e24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_4328a24807ae3caa4aa6c31ec8eb02c58379f15e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-10.2.1_6a4ae43792ddfb1c606748eed404af5133f12628.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-10.2.1_44d57356da94b1ea6c2b8c8785e5f315a9b6f5c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\libs\sqlite-connector.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="76169ab23a4f939925491c6fe186749da5a56ee9">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\sqlite-connector_d59c93c23792558f00394e70faf2fdf44a37d335.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_33e400295526edf7c39ecfb1b43aef6df5b89474.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.24.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e0e8918eb74e3ee9e82eef6430a4359b2b577d3">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-android-sdk-4.24.0_fe79755ca99d2b90efd6489d93862d436468aa15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="afe8eb4906b94df000e2b3714c864ec42d4e4ea6">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_22d7babd6c737169d01e28531ce3c6d8e23e7324.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\exploded-aar\com.android.support\customtabs\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-customtabs-25.3.1_63148d78cc87525912160b8cb35125f5d1acf014.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_08e4c67fee24b7f1e07787df758d871c2c871ba2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12032271e6be735e811ad529cb08ff066c381640">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-10.2.1_2477dddc5ef2f7fe82131f578fcb46c0c5569f36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_8ff71873af67fe45a000314f2ee5f3452e34f9e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_1dd4e034f8b253971e22b8a37b56268c0b47f862.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.3.1_be7c5d6b97b7d897b37271914da82724682eeb2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_657a6c8b63bf07d5997e1256ddedccd2dee03a34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-10.2.1_0a7cc5b5b7732f258ce4ea0c740af22a090e4ea6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_c758b266a0ccd882a2e66e06099b17623b43fd7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.1_914489e3c1e12a0b44eede1394b58965bef0d1cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_c51d4fdf57b6e23b7c3fbcc049cda53dcad7b077.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec7d3099b4e3cf23230c78acaae438f3371e1c19">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-10.2.1_cc63eaed88c5e10e9741eaf98264c3ebee9f8f81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\exploded-aar\com.soundcloud.android\android-crop\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7d59ba36bdb53bd81f4d16ed7e2abb47de5c53bd">
+        <dex dex="C:\Users\mediaoncloud\Desktop\bestOffers\platforms\android\build\intermediates\pre-dexed\debug\com.soundcloud.android-android-crop-1.0.0_1f3f0637a93c9c5fb266678bc111ba65e11557ca.jar" />
+    </item>
+
+</items>

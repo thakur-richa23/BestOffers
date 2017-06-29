@@ -1,0 +1,99 @@
+<ion-header>
+</ion-header>
+<ion-content>
+
+     <div class="top-btndiv content-margin">
+            <button class="btn-group border-none">
+       <img src="img/home.png" class="img-icon"/><br/>Home
+            </button>
+            <button class="btn-group border-none"  (click)="opencategory(mob)">
+            <img src="img/mobile.png" class="img-icon"/><br/>Mobiles        
+            </button>
+            <button class="btn-group border-none" (click)="opencategory(elect)">
+             <img src="img/circut.png" class="img-icon"/><br/>Electronics
+            </button>
+            <button class="btn-group " (click)="opencategory(travl)">
+              <img src="img/travel.png" class="img-icon"/><br/>Travel
+            </button>
+            <button class="btn-group" (click)="opencategory(rechrge)">     
+              <img src="img/recharge.png" class="img-icon"/><br/>Recharge
+            </button> 
+            <button class="btn-group" >   
+               <img src="img/viewmore.png" class="img-icon"/><br/>More..
+            </button>   
+        </div>
+
+      <ion-slides autoplay="3000" loop="true" speed="4000" style=" width:84%; height: 25%; margin:0 auto;" >
+        <ion-slide *ngFor="let slide of slideData">
+          <img [src]="slide.image" />
+        </ion-slide>        
+      </ion-slides>
+      <h5 class="text-change">All Products</h5>
+      <ion-scroll scrollX="true" style=" width:100%; height: 40%; margin:0 auto;">
+          <ion-card *ngFor="let product of productres"><img [src]="product.image" />
+        <h2 style="text-align:center;font-weight:500;">Best buy</h2>
+        <p style="text-align:center;" *ngIf="product.price == '' ">Hurry! Rs-<del>{{product.second_cut_price}}</del><sub style="color:green;">{{product.price}}</sub></p>
+        <p style="text-align:center;" *ngIf="product.price != '' ">MRP:<del>{{product.second_cut_price}}</del><sub style="color:green;">{{product.price}}</sub></p>
+        <p style="white-space: nowrap;text-overflow: ellipsis;display:block;overflow:hidden;padding-left: 20px;padding-right: 20px;">{{product.title}}</p>
+          </ion-card> 
+          <a class="link" ><u>View All</u></a>
+      </ion-scroll>
+
+      <h5 class="text-change" style="margin-top: -4px;">Electronics</h5>
+      <ion-scroll scrollX="true" style=" width:100%; height: 40%; margin:0 auto;">
+        <ion-card *ngFor="let electric of electronicres"><img [src]="electric.image" (click)="opencategory(electric.slug)" />
+        <h2 style="text-align:center;font-weight:500;">Best buy</h2>
+        <p style="text-align:center;" *ngIf="electric.price == '' ">Hurry! Rs- <del>{{electric.second_cut_price}}</del><sub style="color:green;">{{electric.price}}</sub></p>
+        <p style="text-align:center;" *ngIf="electric.price != '' ">MRP:<del>{{electric.second_cut_price}}</del><sub style="color:green;">{{electric.price}}</sub></p>
+        <p style="white-space: nowrap;text-overflow: ellipsis;display:block;overflow:hidden;padding-left: 20px;padding-right: 20px;">{{electric.title}}</p>
+        </ion-card> 
+        <a class="link" ><u>View All</u></a>
+      </ion-scroll>
+
+      <h5 class="text-change" style="margin-top: -4px;">Mobile</h5>
+      <ion-scroll scrollX="true" style=" width:100%; height: 40%; margin:0 auto;">
+        <ion-card *ngFor="let mobile of mobileres"><img [src]="mobile.image" (click)="opencategory(mobile.slug)" />
+        <h2 style="text-align:center;font-weight:500;">Best buy</h2>
+         <p style="text-align:center;" *ngIf="mobile.price == '' ">Hurry! Rs- <del>{{mobile.second_cut_price}}</del><sub style="color:green;">{{mobile.price}}</sub></p>
+        <p style="text-align:center;" *ngIf="mobile.price != '' ">MRP:<del>{{mobile.second_cut_price}}</del><sub style="color:green;">{{mobile.price}}</sub></p>
+        <p style="white-space: nowrap;text-overflow: ellipsis;display:block;overflow:hidden;padding-left: 20px;padding-right: 20px;">{{mobile.title}}</p>
+        </ion-card> 
+        <a class="link" ><u>View All</u></a>
+      </ion-scroll>
+
+      <h5 class="text-change" style="margin-top: -4px;">Travel</h5>
+      <ion-scroll scrollX="true" style=" width:100%; height: 40%; margin:0 auto;">
+        <ion-card *ngFor="let travel of travelres"><img [src]="travel.image" (click)="opencategory(travel.slug)" />
+        <h2 style="text-align:center;font-weight:500;">Best buy</h2>
+        <p style="text-align:center;" *ngIf="travel.price == '' ">Hurry! Rs- <del>{{travel.second_cut_price}}</del><sub style="color:green;">{{travel.price}}</sub></p>
+        <p style="text-align:center;" *ngIf="travel.price != '' ">MRP:<del>{{travel.second_cut_price}}</del><sub style="color:green;">{{travel.price}}</sub></p>
+        <p style="white-space: nowrap;text-overflow: ellipsis;display:block;overflow:hidden;padding-left: 20px;padding-right: 20px;">{{travel.title}}</p>
+       
+        </ion-card> 
+        <a class="link" ><u>View All</u></a>
+      </ion-scroll>
+
+      <h5 class="text-change" style="margin-top: -4px;">Recharge</h5>
+      <ion-scroll scrollX="true" style=" width:100%; height: 40%; margin:0 auto;">
+        <ion-card *ngFor="let rechrge of rechargeres"><img [src]="rechrge.image" (click)="opencategory(rechrge.slug)"/>
+        <h2 style="text-align:center;font-weight:500;">Best buy</h2>
+         <p style="text-align:center;" *ngIf="rechrge.price == '' ">Hurry! Rs- <del>{{rechrge.second_cut_price}}</del><sub style="color:green;">{{rechrge.price}}</sub></p>
+        <p style="text-align:center;" *ngIf="rechrge.price != '' ">MRP:<del>{{rechrge.second_cut_price}}</del><sub style="color:green;">{{rechrge.price}}</sub></p>
+        <p style="white-space: nowrap;text-overflow: ellipsis;display:block;overflow:hidden;padding-left: 20px;padding-right: 20px;">{{rechrge.title}}</p>
+        </ion-card> 
+        <a class="link" ><u>View All</u></a>
+      </ion-scroll>
+
+      <h5 class="text-change" style="margin-top: -4px;">Freebies</h5>
+      <ion-scroll scrollX="true" style=" width:100%; height: 40%; margin:0 auto;margin-bottom:20px;">
+        <ion-card *ngFor="let free of freebiesres"><img [src]="free.image" (click)="opencategory(free.slug)"/>
+        <h2 style="text-align:center;font-weight:500;">Best buy</h2>
+         <p style="text-align:center;" *ngIf="free.price == '' ">Hurry! Rs- <del>{{free.second_cut_price}}</del><sub style="color:green;">{{free.price}}</sub></p>
+        <p style="text-align:center;" *ngIf="free.price != '' ">MRP:<del>{{free.second_cut_price}}</del><sub style="color:green;">{{free.price}}</sub></p>
+        <p style="white-space: nowrap;text-overflow: ellipsis;display:block;overflow:hidden;padding-left: 20px;padding-right: 20px;">{{free.title}}</p>
+        </ion-card>
+     
+        <a class="link"><u>View All</u></a>
+      </ion-scroll>
+
+</ion-content>

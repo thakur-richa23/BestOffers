@@ -1,0 +1,29 @@
+
+<ion-header >
+</ion-header>
+<ion-content class="content-margin">
+    <p class="welcometxt">Welcome to BestOffers. Sign in or Manage your account</p>
+ <ion-row class="btn">
+  <button ion-button class="loginbtn" style="margin-right:5px;" (click)="login()">Login</button>
+  <button ion-button class="loginbtn" (click)="signup()">Sign up</button>
+ </ion-row>
+  <br>
+ <ion-list>
+    <button ion-item (click)="profile()">
+      <ion-icon ios="ios-person" md="md-person"></ion-icon>
+      <h2>Profile</h2>
+    </button>
+  </ion-list>
+  <ion-list>
+    <button ion-item (click)="about()">
+      <ion-icon ios="ios-information-circle" md="md-information-circle"></ion-icon>
+      <h2>About</h2>
+    </button>
+  </ion-list>
+  <ion-list>
+    <button ion-item (click)="contact()">
+      <ion-icon ios="ios-mail" md="md-mail"></ion-icon>
+      <h2>Contact</h2>
+    </button>
+  </ion-list>
+</ion-content>

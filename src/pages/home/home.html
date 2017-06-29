@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar hideBackButton="true">
+    <button [hidden]="!IsHidden" ion-button menuToggle class='toggle'>
+      <ion-icon name="menu" style="font-size:30px;"></ion-icon>
+    </button>
+     <img class="logo" [hidden]="!IsHidden" src="img/logo.png"/>
+     <ion-icon ios="ios-search" md="md-search" class="searchicon" (click)="searchbtn()" [hidden]="!IsHidden"></ion-icon>
+  <ion-row [hidden]="IsHidden" style="height: 41px;background-color:#f5f3de;">
+  <ion-icon [hidden]="IsHidden" class="searchicon" name="arrow-back" ios="ios-arrow-back" md="md-arrow-back" (click)="backbtn()"></ion-icon>
+  <ion-searchbar [hidden]="IsHidden" [(ngModel)]="searchTerm" [showCancelButton]="shouldShowCancel" (ionInput)="onInput()" ></ion-searchbar>
+  </ion-row>
+  <ion-row>
+     <ion-list>
+        <ion-item *ngFor="let item of searchdata">
+            <p>{{item.slug}}</p>
+        </ion-item>
+    </ion-list>
+  </ion-row>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  
+  <ion-tabs>
+  <ion-tab [root]="tab1" id="tab1" tabTitle="Home" tabIcon="home"></ion-tab>  
+  <ion-tab [root]="tab2" id="tab2" tabTitle="All categories" tabIcon="apps"></ion-tab>
+  <ion-tab [root]="tab3" id="tab3" tabTitle="Account" tabIcon="person"></ion-tab>
+</ion-tabs>
+</ion-content>

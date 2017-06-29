@@ -1,0 +1,49 @@
+page-signin {
+       .content-margin{margin-top:6em!important;} 
+.welcometxt{
+    font-size:18px;
+    text-align: center;
+}
+.loginbtn{
+    text-transform:none;
+    border-radius:10px;
+    background: forestgreen;
+}
+.btn{
+        margin: 0px 0px 0px 90px;
+    }
+.ics{
+        color:darkcyan;
+    }
+.toggle{
+    border-radius:50%;
+    height:45px;
+    width:40px;
+    color:rgb(75, 184, 23);
+    vertical-align:top;
+    background: rgb(45, 40, 40);
+}
+.logo{
+    height: 47px;
+    width: 135px;
+}
+
+.searchicon{
+    display: inline-block;
+    font-size: 2.9em;
+    float: right;
+    margin-right: 11px;
+}
+.back-button-md{
+    top:-40px;
+}
+.item-md h2 {
+    position: relative;
+    bottom: 25px;
+    left: 42px;
+}
+ion-icon {
+    position: relative;
+    left: 11px;
+}
+}

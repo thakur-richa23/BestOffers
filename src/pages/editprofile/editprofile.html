@@ -1,0 +1,26 @@
+<ion-header>
+</ion-header>
+
+<ion-content >
+<form class="main-form">
+    <ion-icon name="ios-arrow-back" (click)="back()" style="font-size:28px;margin-top: 16px;
+    margin-left: 26px;"></ion-icon>
+    <ion-row class="main-img"><img src="img/logo.png"/></ion-row>
+    <ion-label class="label-first">Username</ion-label>
+    <ion-input type="text" class="inputbox1" placeholder="" name="data.name" [(ngModel)]="data.name"></ion-input>
+
+    <ion-label class="label-first">Current Password</ion-label>
+    <ion-input type="password" class="inputbox1" placeholder="" name="data.currpass" [(ngModel)]="data.currpass"></ion-input>
+
+    <ion-label class="label-first">New Password</ion-label>
+    <ion-input type="password" class="inputbox1" placeholder="" name="data.newpass" [(ngModel)]="data.newpass"></ion-input>
+  
+    <ion-label class="label-first">Confirm Password</ion-label>
+    <ion-input type="password" class="inputbox1" placeholder="" name="data.confirmpass" [(ngModel)]="data.confirmpass"></ion-input>
+    </form>
+
+<ion-row class="margin-inputbtn">
+  <button  ion-button full class="btn-login" (click)="submit()">Submit</button>
+</ion-row>
+
+</ion-content>

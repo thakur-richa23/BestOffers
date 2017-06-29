@@ -1,0 +1,76 @@
+page-login {
+
+.scroll-content{ background-color: #f5f3de!important; }
+ion-navbar.toolbar{display:none;}
+.main-img{margin:0 auto; width:100%;}
+.main-img img{ margin:2em auto 0px;
+    height: 100px;}
+    .margin-input1{ margin: 4em 2em 1em;
+    box-shadow: 3px 2px 7px 0px #545454;}
+     .margin-input2{  margin: 2em 2em 1em;
+         box-shadow: 3px 2px 7px 0px #545454;}
+   .side-img{width: 51px;
+    height: 39px;}
+    .margin-inputbtn{ margin: 1em 2em 1em;}
+    .text-input-md{ margin: 8px 8px 8px 8px!important;}
+ ion-input.inputbox1{  background:transparent;
+    color: #000;}
+    
+    .btn-login{ background: #688f59;
+    color: #fff;
+    box-shadow: 2px 1px 1px 0px #8f8f8f;
+    height: 46px;
+    font-size: 20px;
+}
+.btnn{ background: #688f59;
+    color: #fff;
+    box-shadow: 2px 1px 1px 0px #8f8f8f;
+    height: 53px;
+    border-radius:250px;
+    font-size: 18px;
+}
+.googlelogo{
+    width:40px;
+    height:40px;
+    padding:2px;
+}
+.fblogo{
+    width:40px;
+    height:40px;
+    border-radius:60px;
+    padding:2px;
+}
+
+.forget-password{margin: 0em 2em;
+}
+ .not-member a{color: #000;
+    font-size: 16px;}
+.forget-password span{  
+    text-align:center;
+    width: 100%;
+    margin: 0em 0em;
+    font-weight: 500;
+    color: #545454;
+    font-size: 15px;}
+    .forget-password span{  
+    text-align:center;
+    width: 100%;
+}
+ .not-member span{  text-align:center;
+    width: 100%;}
+     .not-member a{color: #000;}
+    .not-member{ 
+    width: 100%;
+    margin: 0em 0em;
+    font-weight: 500;
+    color: #545454;
+    font-size: 15px;}
+     .member{ 
+    width: 100%;
+    margin: 2em 9em !important;
+    font-weight: 500;
+    color: #545454;
+    font-size: 15px;}
+.text-input{    margin: 9px 0px 8px 7px;
+    font-size: 19px;}
+}

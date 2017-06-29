@@ -1,0 +1,53 @@
+page-home {
+.toggle{
+    border-radius:50%;
+    height:45px;
+    width:40px;
+    color:rgb(75, 184, 23);
+    vertical-align:top;
+    background: rgb(45, 40, 40);
+}
+.logo{
+    height: 47px;
+    width: 135px;
+}
+
+.searchicon{
+    display: inline-block;
+    font-size: 2.5em;
+    position: relative;
+    top: 9px;
+    float: right;
+    margin-right: 11px;
+}
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon {
+    color: rgb(76, 187, 23);  
+   // border:  rgb(76, 187, 23);
+}
+.tabs-md[tabsLayout=icon-top] .has-icon .tab-button-text {
+    color: black;
+    font-size:15px;
+}
+.tabs-md .tab-button[aria-selected=true] {
+    color: black;
+    padding: 0;
+    border: 3px solid olivedrab;
+}
+.tabs-md .tab-button {
+    min-height: 2.1rem;
+    font-weight: normal;
+    color: darkgreen;
+    padding: 0;
+    border: 1px solid;
+}
+.searchbar-input-container{
+    position: relative;
+    display: block;
+    flex-shrink: 1;
+    width: 90%;
+    left: 33px;
+    bottom: 31px;
+}
+
+
+}

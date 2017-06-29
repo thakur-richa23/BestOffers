@@ -1,0 +1,20 @@
+
+<ion-header>
+</ion-header>
+
+<ion-content class="content">
+  <ion-row class="row1">
+    <img [src]= "categoryitem.image" style="position: relative; top: 0;right: 0; left: 0; bottom: 0; width: 100%;" />
+    <p class="title">MRP: {{categoryitem.price}}</p>
+    <p class="desc">Electronic Category</p>
+  </ion-row>
+  <ion-grid style="margin: 0em;">
+  <ion-row class="row2" >
+    <ion-col class="col-1" *ngFor="let cat of similar">
+      <img [src] = "cat.image" style="width:80%;height:50%;margin: 1em;" />
+      <p style="text-align:center;">{{cat.price}}</p>
+      <p style="white-space: nowrap;text-overflow: ellipsis;text-align: center;margin: 1em;display:block;overflow:hidden;padding-right: 10px;">Description</p>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+</ion-content>

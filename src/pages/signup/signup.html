@@ -1,0 +1,21 @@
+
+<ion-header>
+    <ion-navbar>
+     
+  </ion-navbar>
+</ion-header>
+<ion-content style="margin-top:0px;background-image: url(img/back-login.jpg);">
+<ion-row class="main-img"><img src="img/logo.png"/></ion-row>
+<ion-row class="margin-input1"><img class="side-img" src="img/user1.png"/>
+<ion-input type="text" class="inputbox1" placeholder="" [(ngModel)]="data.username" ></ion-input></ion-row>
+
+<ion-row class="margin-input2"><img class="side-img" src="img/pass1.png"/>
+<ion-input type="password" class="inputbox1" placeholder="" [(ngModel)]="data.password"></ion-input></ion-row>
+
+<ion-row class="margin-input2"><img class="side-img" src="img/email.png"/>
+<ion-input type="text" class="inputbox1" placeholder="" [(ngModel)]="data.email"></ion-input></ion-row>
+
+<ion-row class="margin-inputbtn"><button  ion-button full class="btn-login" (click)="signup(data.email,data.password,data.username)">Sign up</button></ion-row>
+<ion-row class="not-member" (click)="login()"><span>Already a Member <a >Login </a> </span></ion-row>
+
+</ion-content>

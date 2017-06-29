@@ -1,0 +1,66 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.bestoffershops.com"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.bestoffershops.com"
+        },
+        "cordova-plugin-facebook4": {
+            "APP_ID": "463366334017496",
+            "APP_NAME": "bestOffershops",
+            "PACKAGE_NAME": "com.bestoffershops.com"
+        },
+        "cordova-plugin-googleplus": {
+            "PACKAGE_NAME": "com.bestoffershops.com"
+        },
+        "cordova-plugin-nativestorage": {
+            "PACKAGE_NAME": "com.bestoffershops.com"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.bestoffershops.com"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.bestoffershops.com"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.bestoffershops.com"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.bestoffershops.com"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.bestoffershops.com"
+        },
+        "cordova-plugin-crop": {
+            "PACKAGE_NAME": "com.bestoffershops.com"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.bestoffershops.com"
+        },
+        "cordova-plugin-filepath": {
+            "PACKAGE_NAME": "com.bestoffershops.com"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.bestoffershops.com"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.bestoffershops.com"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.bestoffershops.com"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.bestoffershops.com"
+        }
+    }
+}
